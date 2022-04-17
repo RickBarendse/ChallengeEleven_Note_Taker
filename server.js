@@ -4,11 +4,13 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 // set up middleware to parse JSON data
-app.uae(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
+});
 
 
 app.listen(3001, () => {
