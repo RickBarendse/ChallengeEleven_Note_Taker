@@ -1,6 +1,18 @@
-[
+{
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "Cook dinner",
+      "text": "start cooking at 5:00PM to have it on the table by 6:00PM.",
+      "id": "1"
+    },
+    {
+      "title": "Submit timesheet",
+      "text": "Timesheet due by 4:00pm",
+      "id": "2"
     }
-]
+  ]
+}
